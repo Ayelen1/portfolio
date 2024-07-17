@@ -9,14 +9,14 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpeg'),
-  fullName: 'Mark Freeman',
-  role: 'Senior React Developer',
+  image: import('@/assets/aye.jpeg'),
+  fullName: 'Ayelen Guimarey',
+  role: 'BI Engineer',
   details: [
-    { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com', url: 'mailto:mark.freeman.dev@gmail.com' },
-    { label: 'From', value: 'Warsaw, Poland' },
-    { label: 'Salary range', value: '18 000 - 25 000 PLN' },
+    { label: 'Phone', value: '+54 9 11 2389 9838', url: 'tel:+54 9 11 2389 9838' },
+    { label: 'Email', value: 'ayelen.guimarey@gmail.com', url: 'mailto:ayelen.guimarey@gmail.com' }
+    //{ label: 'From', value: 'Warsaw, Poland' },
+    //{ label: 'Salary range', value: '18 000 - 25 000 PLN' },
   ],
   pdfDetails: [
     { label: 'Phone', value: '605 475 6961' },
@@ -26,7 +26,7 @@ const mainSectionData = {
     { label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
   ],
   description:
-    'Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. In sodales ac dui at *vestibulum*. In condimentum metus id dui tincidunt, in blandit mi [vehicula](/). Nulla lacinia, erat sit amet elementum vulputate, lectus mauris volutpat mi, vitae accumsan metus elit ut nunc. Vestibulum lacinia enim eget eros fermentum scelerisque. Proin augue leo, posuere ut imperdiet vitae, fermentum eu ipsum. Sed sed neque sagittis, posuere urna nec, commodo leo. Pellentesque posuere justo vitae massa volutpat maximus.',
+    'Highly skilled professional with extensive experience in Business Intelligence (BI) tools such as Qlik and Tableau. Adept at understanding client requirements and developing tailored solutions. Demonstrates solid expertise in data transformation using SQL Server Integration Services (SSIS) and in migrating processes to Hadoop-based Data Lakes with Python, Spark, and Airflow. Experienced in implementing Agile and Scrum methodologies to enhance project efficiency and effectiveness.Recognized for being detail- oriented and a critical thinker, with a strong problem - solving mindset.Proactive team member with excellent communication and interpersonal skills, capable of working independently or collaboratively within an integrated team.',
   tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }, { name: 'Working on side project' }],
   action: {
     label: 'Download CV',
