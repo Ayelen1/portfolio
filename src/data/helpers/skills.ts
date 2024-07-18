@@ -18,6 +18,13 @@ skill({ description: '...' }) — returns skill with a description displayed whe
 
 */
 
+export const airflow = createSkillFactory({
+  name: 'Apache Airflow',
+  icon: 'devicon:apacheairflow',
+  iconColor: '#311C87',
+  url: 'https://airflow.apache.org/',
+});
+
 export const apolloGraphql = createSkillFactory({
   name: 'Apollo GraphQL',
   icon: 'simple-icons:apollographql',
@@ -30,6 +37,13 @@ export const astro = createSkillFactory({
   icon: 'simple-icons:astro',
   iconColor: '#FF5D01',
   url: 'https://astro.build/',
+});
+
+export const aws= createSkillFactory({
+  name: 'AWS',
+  icon: 'logos:aws',
+  iconColor: '#FF5D01',
+  url: 'https://aws.amazon.com/',
 });
 
 export const chakraUi = createSkillFactory({
@@ -46,6 +60,20 @@ export const cypress = createSkillFactory({
   url: 'https://www.cypress.io/',
 });
 
+export const databricks = createSkillFactory({
+  name: 'Databricks',
+  icon: 'simple-icons:databricks',
+  iconColor: '#000',
+  url: 'https://www.databricks.com/',
+});
+
+export const dbeaver = createSkillFactory({
+  name: 'DBeaver',
+  icon: 'simple-icons:dbeaver',
+  iconColor: '#0062FF',
+  url: 'https://dbeaver.io/',
+});
+
 export const eslint = createSkillFactory({
   name: 'ESLint',
   icon: 'simple-icons:eslint',
@@ -60,11 +88,46 @@ export const firebase = createSkillFactory({
   url: 'https://firebase.google.com/',
 });
 
+export const git = createSkillFactory({
+  name: 'GitHub/GitLab',
+  icon: 'simple-icons:git',
+  iconColor: '#FF0000',
+  url: 'https://git-scm.com/',
+});
+
+export const hadoop = createSkillFactory({
+  name: 'Apache Hadoop',
+  icon: 'devicon:hadoop',
+  iconColor: '#FFD045',
+  url: 'https://hadoop.apache.org/',
+});
+
+export const hive = createSkillFactory({
+  name: 'Apache Hive',
+  icon: 'simple-icons:apachehive',
+  iconColor: '#000',
+  url: 'https://hive.apache.org/',
+});
+
+export const impala = createSkillFactory({
+  name: 'Apache Impala',
+  icon: 'logos:impala',
+  iconColor: '#FDCB58',
+  url: 'https://impala.apache.org/',
+});
+
 export const jest = createSkillFactory({
   name: 'Jest',
   icon: 'simple-icons:jest',
   iconColor: '#C21325',
   url: 'https://jestjs.io/',
+});
+
+export const jira = createSkillFactory({
+  name: 'Jira',
+  icon: 'devicon:jira',
+  iconColor: '#C21325',
+  url: 'https://www.atlassian.com/software/jira',
 });
 
 export const mongoDb = createSkillFactory({
@@ -73,6 +136,14 @@ export const mongoDb = createSkillFactory({
   iconColor: '#47A248',
   url: 'https://www.mongodb.com/',
 });
+
+export const mySQL = createSkillFactory({
+  name: 'MySQL',
+  icon: 'devicon:mysql',
+  iconColor: '#47A248',
+  url: 'https://www.mysql.com/',
+});
+
 
 export const nestJs = createSkillFactory({
   name: 'NestJS',
@@ -95,6 +166,13 @@ export const nx = createSkillFactory({
   url: 'https://nx.dev/',
 });
 
+export const oracle = createSkillFactory({
+  name: 'Oracle',
+  icon: 'simple-icons:oracle',
+  iconColor: '#FF0000',
+  url: 'https://www.oracle.com/',
+});
+
 export const pnpm = createSkillFactory({
   name: 'pnpm',
   icon: 'simple-icons:pnpm',
@@ -109,11 +187,40 @@ export const postgreSql = createSkillFactory({
   url: 'https://www.postgresql.org/',
 });
 
+export const presto = createSkillFactory({
+  name: 'Presto',
+  icon: 'logos:presto-icon',
+  iconColor: '#F7B93E',
+  url: 'https://prestodb.io/',
+});
+
 export const prettier = createSkillFactory({
   name: 'Prettier',
   icon: 'simple-icons:prettier',
   iconColor: '#F7B93E',
   url: 'https://prettier.io/',
+});
+
+export const pycharm = createSkillFactory({
+  name: 'PyCharm',
+  icon: 'devicon:pycharm',
+  iconColor: '#F7B93E',
+  url: 'https://www.jetbrains.com/pycharm/',
+});
+
+
+export const python = createSkillFactory({
+  name: 'Python',
+  icon: 'devicon:python',
+  iconColor: '#F7B93E',
+  url: 'https://www.python.org/',
+});
+
+export const qlik = createSkillFactory({
+  name: 'QlikView/Qlik Sense',
+  icon: 'vscode-icons:file-type-qlikview',
+  iconColor: '#F7B93E',
+  url: 'https://www.qlik.com/',
 });
 
 export const react = createSkillFactory({
@@ -137,11 +244,32 @@ export const sass = createSkillFactory({
   url: 'https://sass-lang.com/',
 });
 
+export const spark = createSkillFactory({
+  name: 'Apache Spark',
+  icon: 'simple-icons:apachespark',
+  iconColor: '#CC6699',
+  url: 'https://spark.apache.org/',
+});
+
+export const sqlserver = createSkillFactory({
+  name: 'SQL Server',
+  icon: 'devicon:microsoftsqlserver',
+  iconColor: '#CC6699',
+  url: 'https://www.microsoft.com/en-us/sql-server/sql-server-downloads',
+});
+
 export const supabase = createSkillFactory({
   name: 'Supabase',
   icon: 'simple-icons:supabase',
   iconColor: '#3ECF8E',
   url: 'https://supabase.io/',
+});
+
+export const tableau = createSkillFactory({
+  name: 'Tableau',
+  icon: 'logos:tableau-icon',
+  iconColor: '#06B6D4',
+  url: 'https://www.tableau.com/',
 });
 
 export const tailwindCss = createSkillFactory({
@@ -151,11 +279,25 @@ export const tailwindCss = createSkillFactory({
   url: 'https://tailwindcss.com/',
 });
 
+export const trello = createSkillFactory({
+  name: 'Trello',
+  icon: 'devicon:trello',
+  iconColor: '#06B6D4',
+  url: 'https://trello.com/',
+
+}); 
 export const typescript = createSkillFactory({
   name: 'TypeScript',
   icon: 'simple-icons:typescript',
   iconColor: '#3178C6',
   url: 'https://www.typescriptlang.org/',
+});
+
+export const vscode = createSkillFactory({
+  name: 'VS Code',
+  icon: 'devicon:vscode',
+  iconColor: '#F7B93E',
+  url: 'https://code.visualstudio.com/',
 });
 
 export const vue = createSkillFactory({
