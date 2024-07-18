@@ -5,6 +5,7 @@ import {
   aws,
   databricks,
   dbeaver,
+  excel,
   git,
   hadoop,
   hive,
@@ -68,7 +69,7 @@ const skillsSectionData = {
     },
     {
       title: 'Tools',
-      skills: [tableau(), qlik(), git(), jira(), trello(), pycharm(), vscode(), dbeaver()],
+      skills: [tableau(), qlik(), git(), jira(), trello(), pycharm(), vscode(), dbeaver(), excel()],
     },
     {
       title: 'Languages',

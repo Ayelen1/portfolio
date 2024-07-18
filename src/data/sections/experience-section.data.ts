@@ -13,6 +13,28 @@ import {
   tailwindCss,
   typescript,
   vue,
+  airflow,
+  aws,
+  databricks,
+  dbeaver,
+  excel,
+  git,
+  hadoop,
+  hive,
+  impala,
+  mySQL,
+  oracle,
+  postgreSql,
+  presto,
+  pycharm,
+  python,
+  qlik,
+  spark,
+  sqlserver,
+  tableau,
+  trello,
+  jira,
+  vscode,
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -24,57 +46,78 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
+      role: 'SR BI Engineer',
+      company: 'Santander Tecnologia',
+      image: import('@/assets/logos/santec-logo.jpg'),
       dates: [new Date('2020-02'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - Designed, developed, and implemented data quality control processes in a Data Lake through ETL pipelines
+        - Designed, developed, and supported interactive dashboard reports
+        - Designed, developed, and implemented a PostgreSQL database
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [
+          airflow(),
+          aws(),
+          databricks(),
+          dbeaver(),
+          git(),
+          hadoop(),
+          hive(),
+          impala(),
+          oracle(),
+          postgreSql(),
+          presto(),
+          pycharm(),
+          python(),
+          spark(),
+          sqlserver(),
+          tableau(),
+          trello(),
+          jira(),
+],
       },
       links: [facebook({ url: '#' }), linkedin({ url: '#' })],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
+      role: 'SSR BI Engineer',
+      company: 'Santander',
+      image: import('@/assets/logos/santander-logo.jpeg'),
       dates: [new Date('2019-04'), new Date('2020-02')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
-      `,
+        - Analyzed business requirements
+        - Extracted, transformed, and loaded data using SQL Server Integration Services (SSIS)
+        - Produced dashboards and reports to support risk area decision-making using Tableau and SQL Server Reporting Services (SSRS)
+        - Migrated processes to a Hadoop-based Data Lake using Spark, Hive, and Sqoop as the main tools for development, and Airflow for workflow organization
+        - Participated in teaching a data workshop (specifically SQL) to drive user transformation to a Data-Driven Platform, including the design and content of the workshop       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [sqlserver(),
+          tableau(),
+          airflow(),
+          python(),
+          spark(),
+          git(),
+          oracle(),
+          trello(),
+          ],
       },
       links: [website({ url: '#' }), instagram({ url: '#' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
+      role: 'BI Consultant',
+      company: 'IT Maker',
+      image: import('@/assets/logos/ITMaker-logo.jpeg'),
       dates: [new Date('2016-09'), new Date('2019-04')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+        - Analyzed client requirements, extracted data, and designed data models.
+        - Developed and designed dashboards for data analysis.
+        - Trained new employees on the tools and processes used.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [qlik(), sqlserver(), excel(), trello()],
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },

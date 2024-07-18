@@ -81,6 +81,13 @@ export const eslint = createSkillFactory({
   url: 'https://eslint.org/',
 });
 
+export const excel = createSkillFactory({
+  name: 'Excel',
+  icon: 'vscode-icons:file-type-excel2',
+  iconColor: '#4B32C3',
+  url: 'https://www.microsoft.com/en-us/microsoft-365/excel',
+});
+
 export const firebase = createSkillFactory({
   name: 'Firebase',
   icon: 'simple-icons:firebase',
