@@ -2,17 +2,6 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
 import {
-  chakraUi,
-  eslint,
-  firebase,
-  nextJs,
-  nx,
-  pnpm,
-  react,
-  reactQuery,
-  tailwindCss,
-  typescript,
-  vue,
   airflow,
   aws,
   databricks,
@@ -78,7 +67,7 @@ const experienceSectionData = {
           jira(),
 ],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [linkedin({ url: 'https://www.linkedin.com/company/santandertec' })],
     },
     {
       role: 'SSR BI Engineer',
@@ -103,7 +92,7 @@ const experienceSectionData = {
           trello(),
           ],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [website({ url: 'https://www.santander.com.ar/' }), linkedin({ url: 'https://www.linkedin.com/company/banco-santander-argentina/' })],
     },
     {
       role: 'BI Consultant',
@@ -111,15 +100,15 @@ const experienceSectionData = {
       image: import('@/assets/logos/ITMaker-logo.jpeg'),
       dates: [new Date('2016-09'), new Date('2019-04')],
       description: `
-        - Analyzed client requirements, extracted data, and designed data models.
-        - Developed and designed dashboards for data analysis.
-        - Trained new employees on the tools and processes used.
+        - Analyzed client requirements, extracted data, and designed data models
+        - Developed and designed dashboards for data analysis
+        - Trained new employees on the tools and processes used
       `,
       tagsList: {
         title: 'Technologies',
         tags: [qlik(), sqlserver(), excel(), trello()],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [website({ url: 'https://itmaker.com.ar/' }), linkedin({ url: 'https://www.linkedin.com/company/itmakerarg' })],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
