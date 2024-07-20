@@ -26,7 +26,7 @@ const mainSectionData = {
     //{ label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
   ],
   description:
-    'Highly skilled professional with extensive experience in Business Intelligence (BI) tools such as Qlik and Tableau. Adept at understanding client requirements and developing tailored solutions. Demonstrates solid expertise in data transformation using SQL Server Integration Services (SSIS) and in migrating processes to Hadoop-based Data Lakes with Python, Spark, and Airflow. Experienced in implementing Agile and Scrum methodologies to enhance project efficiency and effectiveness.Recognized for being detail- oriented and a critical thinker, with a strong problem - solving mindset.Proactive team member with excellent communication and interpersonal skills, capable of working independently or collaboratively within an integrated team.',
+    'I am a Systems Engineer with a focus on Data, graduated in 2021, with extensive experience in ETL process development, dashboard creation, and customer requirements analysis. Thrives on challenges and continuous learning. Committed to fostering a positive and collaborative work environment as a key to achieving goals.',
   tags: [{ name: 'Open for freelance' }, { name: 'Open for relocation' }, { name: 'Open to work remotely' }],
   action: {
     label: 'Download CV',

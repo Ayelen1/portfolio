@@ -38,7 +38,7 @@ const experienceSectionData = {
       role: 'SR BI Engineer',
       company: 'Santander Tecnologia',
       image: import('@/assets/logos/santec-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      dates: [new Date('2022-05'), new Date('2023-05')],
       description: `
         - Designed, developed, and implemented data quality control processes in a Data Lake through ETL pipelines
         - Designed, developed, and supported interactive dashboard reports
@@ -73,7 +73,7 @@ const experienceSectionData = {
       role: 'SSR BI Engineer',
       company: 'Santander',
       image: import('@/assets/logos/santander-logo.jpeg'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      dates: [new Date('2020-03'), new Date('2022-05')],
       description: `
         - Analyzed business requirements
         - Extracted, transformed, and loaded data using SQL Server Integration Services (SSIS)
@@ -98,7 +98,7 @@ const experienceSectionData = {
       role: 'BI Consultant',
       company: 'IT Maker',
       image: import('@/assets/logos/ITMaker-logo.jpeg'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      dates: [new Date('2018-07'), new Date('2020-03')],
       description: `
         - Analyzed client requirements, extracted data, and designed data models
         - Developed and designed dashboards for data analysis
