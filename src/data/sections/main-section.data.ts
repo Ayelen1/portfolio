@@ -26,7 +26,7 @@ const mainSectionData = {
     //{ label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
   ],
   description:
-    'I am a Systems Engineer with a focus on Data, graduated in 2021, with extensive experience in ETL process development, dashboard creation, and customer requirements analysis. Thrives on challenges and continuous learning. Committed to fostering a positive and collaborative work environment as a key to achieving goals.',
+    'I am a Systems Engineer, graduated in 2021, with 5 years of experience specializing in Data. Proven expertise in ETL process development, dashboard creation, and customer requirements analysis.  I thrive on challenges and continuous learning, and am dedicated to fostering a positive and collaborative work environment to achieve goals effectively.',
   tags: [{ name: 'Open for freelance' }, { name: 'Open for relocation' }, { name: 'Open to work remotely' }],
   action: {
     label: 'Download CV',
