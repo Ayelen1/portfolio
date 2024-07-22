@@ -24,7 +24,7 @@ const educationSectionData = {
       image: import('@/assets/logos/damaso-logo.jpg'),
       dates: [new Date('2009.01'), new Date('2013.12')],
       description: '',
-      links: [website({ url: '#' })],
+      links: [website({ url: 'https://www.damasocenteno.edu.ar/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<EducationSection>;
