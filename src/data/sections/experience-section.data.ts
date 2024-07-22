@@ -35,7 +35,7 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'SR BI Engineer',
+      role: 'Data Engineer',
       company: 'Santander Tecnologia',
       image: import('@/assets/logos/santec-logo.jpg'),
       dates: [new Date('2022-05'), new Date('2023-05')],
@@ -70,7 +70,7 @@ const experienceSectionData = {
       links: [linkedin({ url: 'https://www.linkedin.com/company/santandertec' })],
     },
     {
-      role: 'SSR BI Engineer',
+      role: 'BI Engineer',
       company: 'Santander',
       image: import('@/assets/logos/santander-logo.jpeg'),
       dates: [new Date('2020-03'), new Date('2022-05')],
