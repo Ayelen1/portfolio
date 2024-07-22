@@ -11,7 +11,7 @@ const config = {
     },
   },
   meta: {
-    title: 'Ayelen Guimarey - BI Engineer',
+    title: 'Ayelen Guimarey - Data Engineer',
     description: '',
     faviconPath: '/src/assets/aye.jpeg',
   },

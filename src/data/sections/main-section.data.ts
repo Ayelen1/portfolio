@@ -13,13 +13,13 @@ const mainSectionData = {
   fullName: 'Ayelen Guimarey',
   role: 'Data Engineer',
   details: [
-    //{ label: 'Phone', value: '+54 9 11 2389 9838', url: 'tel:+54 9 11 2389 9838' },
+    //{ label: 'Phone', value: '', url: 'tel:' },
     { label: 'Email', value: 'ayelen.guimarey@gmail.com', url: 'mailto:ayelen.guimarey@gmail.com' },
     { label: 'From', value: 'Buenos Aires, Argentina' },
     //{ label: 'Salary range', value: '18 000 - 25 000 PLN' },
   ],
   pdfDetails: [
-   // { label: 'Phone', value: '+54 9 11 2389 9838' },
+   // { label: 'Phone', value: '' },
     { label: 'Email', value: 'ayelen.guimarey@gmail.com' },
     { label: 'LinkedIn', value: '/in/ayelen-guimarey', url: 'https://linkedin.com' },
     //{ label: 'GitHub', value: '/mark-freeman', url: 'https://github.com' },
