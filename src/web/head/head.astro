@@ -16,6 +16,15 @@ const { meta, sections } = Astro.props;
 ---
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KH68FKSCC3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KH68FKSCC3');
+  </script>
   <Meta meta={meta} />
   <Favicons />
   <InitialHash sections={sections} />
