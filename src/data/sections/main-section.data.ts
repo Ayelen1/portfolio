@@ -21,7 +21,7 @@ const mainSectionData = {
   pdfDetails: [
    // { label: 'Phone', value: '' },
     { label: 'Email', value: 'ayelen.guimarey@gmail.com' },
-    { label: 'LinkedIn', value: '/in/ayelen-guimarey', url: 'https://linkedin.com' },
+    { label: 'LinkedIn', value: '/in/ayelen-guimarey', url: 'https://linkedin.com/in/ayelen-guimarey' },
     //{ label: 'GitHub', value: '/mark-freeman', url: 'https://github.com' },
     //{ label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
   ],
