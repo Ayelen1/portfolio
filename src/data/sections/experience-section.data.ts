@@ -36,7 +36,7 @@ const experienceSectionData = {
   jobs: [
     {
       role: 'Data Engineer',
-      company: 'Santander Tecnologia',
+      company: 'Santander Technology',
       image: import('@/assets/logos/santec-logo.jpg'),
       dates: [new Date('2022-05'), new Date('2023-05')],
       description: `
@@ -71,7 +71,7 @@ const experienceSectionData = {
     },
     {
       role: 'BI Engineer',
-      company: 'Santander',
+      company: 'Santander Bank',
       image: import('@/assets/logos/santander-logo.jpeg'),
       dates: [new Date('2020-03'), new Date('2022-05')],
       description: `
