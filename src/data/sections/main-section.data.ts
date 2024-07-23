@@ -10,7 +10,7 @@ const mainSectionData = {
     visible: true,
   },
   image: import('@/assets/aye.jpeg'),
-  fullName: 'Ayelen Guimarey',
+  fullName: 'Ayelen Camila Guimarey',
   role: 'Data Engineer',
   details: [
     //{ label: 'Phone', value: '', url: 'tel:' },
@@ -21,9 +21,9 @@ const mainSectionData = {
   pdfDetails: [
    // { label: 'Phone', value: '' },
     { label: 'Email', value: 'ayelen.guimarey@gmail.com' },
-    { label: 'LinkedIn', value: '/in/ayelen-guimarey', url: 'https://linkedin.com/in/ayelen-guimarey' },
+    { label: 'LinkedIn', value: '/in/ayelen-guimarey', url: 'https://linkedin.com/in/ayelen-guimarey', fullRow: true },
     //{ label: 'GitHub', value: '/mark-freeman', url: 'https://github.com' },
-    //{ label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
+    { label: 'Website', value: 'https://ayelenguimarey.com.ar/', url: 'https://ayelenguimarey.com.ar/', fullRow: true },
   ],
   description:
     'I am a Systems Engineer, graduated in 2021, with 5 years of experience specializing in Data. Proven expertise in ETL process development, dashboard creation, and customer requirements analysis.  I thrive on challenges and continuous learning, and am dedicated to fostering a positive and collaborative work environment to achieve goals effectively.',
