@@ -40,9 +40,10 @@ const experienceSectionData = {
       image: import('@/assets/logos/santec-logo.jpg'),
       dates: [new Date('2022-05'), new Date('2023-05')],
       description: `
-        - Designed, developed, and implemented data quality control processes in a Data Lake through ETL pipelines
-        - Designed, developed, and supported interactive dashboard reports
-        - Designed, developed, and implemented a PostgreSQL database
+        - Design, development, and implementation of data quality control processes using ETL pipelines for data models migrated to a cloud-based Data Lake
+        - Design, development, and support of interactive dashboard reports, enhancing data visualization and analysis for decision-making
+        - Design, development, and implementation of a PostgreSQL database
+        - Data quality control of data models, effectively coordinating with users and developers to ensure reliability and accuracy in the use of tables
       `,
       tagsList: {
         title: 'Technologies',
@@ -75,11 +76,9 @@ const experienceSectionData = {
       image: import('@/assets/logos/santander-logo.jpeg'),
       dates: [new Date('2020-03'), new Date('2022-05')],
       description: `
-        - Analyzed business requirements
-        - Extracted, transformed, and loaded data using SQL Server Integration Services (SSIS)
-        - Produced dashboards and reports to support risk area decision-making using Tableau and SQL Server Reporting Services (SSRS)
-        - Migrated processes to a Hadoop-based Data Lake using Spark, Hive, and Sqoop as the main tools for development, and Airflow for workflow organization
-        - Participated in teaching a data workshop (specifically SQL) to drive user transformation to a Data-Driven Platform, including the design and content of the workshop       `,
+        - Analysis of user needs in the risk area, development of ETL processes, and creation of dashboards and reports to support decision-making
+        - Development of ETL processes to migrate data models to a cloud-based Data Lake, optimizing data integration and management
+        - Training of users through SQL workshops, driving the transformation towards a data-driven platform and promoting a culture of informed decision-making       `,
       tagsList: {
         title: 'Technologies',
         tags: [sqlserver(),
@@ -100,13 +99,13 @@ const experienceSectionData = {
       image: import('@/assets/logos/ITMaker-logo.jpeg'),
       dates: [new Date('2018-07'), new Date('2020-03')],
       description: `
-        - Analyzed client requirements, extracted data, and designed data models
-        - Developed and designed dashboards for data analysis
-        - Trained new employees on the tools and processes used
+        - Analysis and collection of requirements through client meetings to understand their needs and translate them into BI solutions. Documentation and prioritization of requirements to ensure that the proposed solutions meet the client's expectations and objectives
+        - Development and implementation of BI solutions through the design and development of robust and scalable data models, as well as interactive and customized dashboards to enhance data visualization and facilitate decision-making
+        - Optimization and continuous improvement of the implemented dashboards based on user feedback and the identification of opportunities to improve processes, ensuring greater efficiency and adaptability to the changing needs of the business
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [qlik(), sqlserver(), excel(), trello()],
+        tags: [qlik(), sqlserver(), oracle(), excel(), trello()],
       },
       links: [website({ url: 'https://itmaker.com.ar/' }), linkedin({ url: 'https://www.linkedin.com/company/itmakerarg' })],
     },
